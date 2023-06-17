@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'SF Pro Display', Sans-serif;
+}
+
+/* Silhueta */
+
+.intro{
+    height: 160vh;
+}
+
+.intro img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.intro h1{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 85px;
+    color: black;
+}
+
+/* Pós-Silhueta */
+
+.pSil{
+    height: 160vh;
+}
+
+.pSil img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.pSil h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 85px;
+    color: black;
+}
+
+/*Final*/
+
+.final{
+    height: 160vh;
+}
+
+.final h2{
+    position: relative;
+    text-align: center;
+    top: 50%;
+    font-size: 280pt;
+
+}
